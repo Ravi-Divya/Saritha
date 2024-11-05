@@ -1,1 +1,2 @@
 video/Saritha_bdy_video.mp4 filter=lfs diff=lfs merge=lfs -text
+public/video/Saritha_bdy_video.mp4 filter=lfs diff=lfs merge=lfs -text
