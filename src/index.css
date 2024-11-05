@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-sparkle {
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
